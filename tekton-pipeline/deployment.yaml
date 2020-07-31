@@ -58,7 +58,5 @@ spec:
     name: tekton1-svc
     weight: 100
   port:
-    targetPort: 3000-tcp
-  tls:
-    termination: passthrough
+    targetPort: 3000
   wildcardPolicy: None
