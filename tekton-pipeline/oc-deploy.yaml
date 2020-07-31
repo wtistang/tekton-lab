@@ -25,4 +25,4 @@ spec:
               key: token
       command: ["/bin/bash", "-c"]
       args:
-        - oc apply -f /workspace/tekton1-git/tekton-pipeline/deployment.yaml --token=$REG_PWD -n tekton-lab
+        - oc apply -f /workspace/tekton1-git/tekton-pipeline/deployment.yaml --token=$REG_PWD -n $(inputs.params.targetNamespace)

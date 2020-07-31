@@ -30,11 +30,11 @@ spec:
         name: buildah
       params:
         - name: BUILDER_IMAGE
-          value: "quay.io/buildah/stable:v1.11.0"
+          value: "$(params.BUILDER_IMAGE)"
         - name: DOCKERFILE
-          value: "/Dockerfile"
+          value: "$(params.DOCKERFILE)"
         - name: TLSVERIFY
-          value: "false"
+          value: "$(params.TLSVERIFY)"
       resources:
         inputs:
           - name: tekton1-git
@@ -47,9 +47,9 @@ spec:
         name: deploy-cm
       params:
         - name: pathToContext
-          value: "/workspace/tekton1-git"
+          value: "$(params.pathToContext)"
         - name: targetNamespace
-          value: "tekton-lab"
+          value: "$(params.targetNamespace)"
       resources:
         inputs:
           - name: tekton1-git
