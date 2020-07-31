@@ -7,6 +7,8 @@ spec:
     storage: 5Gi
   accessModes:
     - ReadWriteOnce
-  hostPath:
-    path: "/var/lib/containers"
+  storageClassName: managed-nfs-storage
+  nfs:
+    path: /tmp
+    server: 172.17.0.2
   persistentVolumeReclaimPolicy: Recycle
