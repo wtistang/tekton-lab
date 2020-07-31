@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2830cfdd-3a05-4f59-8ffa-b8e3f21d3975" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resources</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WMS6zieG9PE5qy4GnpFbJaP7Sl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tekton-pipeline/Templates" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tekton-pipeline" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tekton-pipeline/Templates" />
+      <recent name="$PROJECT_DIR$/tekton-pipeline" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="tekton2" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="davekrier/tekton1:latest" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="3000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Node.js.bin/www" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2830cfdd-3a05-4f59-8ffa-b8e3f21d3975" name="Default Changelist" comment="" />
+      <created>1578328442954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578328442954</updated>
+      <workItem from="1578328444425" duration="6147000" />
+      <workItem from="1578498362355" duration="7262000" />
+      <workItem from="1578579370172" duration="12483000" />
+      <workItem from="1578957802621" duration="1763000" />
+      <workItem from="1578960548783" duration="10757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="376" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578964169288">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="376" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.976@0.23.1680.976" timestamp="1578964169288" />
+    <state x="710" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579021156294">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="710" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.976@0.23.1680.976" timestamp="1579021156294" />
+    <state width="1379" height="250" key="GridCell.Tab.0.bottom" timestamp="1579021772273">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1379" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1579021772273" />
+    <state width="1379" height="250" key="GridCell.Tab.0.center" timestamp="1579021772272">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1379" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1579021772272" />
+    <state width="1379" height="250" key="GridCell.Tab.0.left" timestamp="1579021772272">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1379" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1579021772272" />
+    <state width="1379" height="250" key="GridCell.Tab.0.right" timestamp="1579021772272">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1379" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1579021772272" />
+    <state x="673" y="286" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1578964165093">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="673" y="286" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.23.1680.976@0.23.1680.976" timestamp="1578964165093" />
+  </component>
+</project>

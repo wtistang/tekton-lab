@@ -1,0 +1,17 @@
+apiVersion: tekton.dev/v1alpha1
+kind: TaskRun
+metadata:
+  name: build-docker-image-from-builda-task-run
+spec:
+  taskRef:
+    name: buildah
+  inputs:
+    resources:
+      - name: docker-source
+        resourceRef:
+          name: tekton1-git
+  outputs:
+    resources:
+      - name: builtImage
+        resourceRef:
+          name: tekton1-image
