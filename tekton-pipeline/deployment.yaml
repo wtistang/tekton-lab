@@ -32,7 +32,7 @@ kind: Service
 metadata:
   labels:
     app: tekton1
-  name: tekton1
+  name: tekton1-svc
 spec:
   ports:
     - port: 3000
@@ -47,14 +47,14 @@ apiVersion: v1
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: tekton1
+  name: tekton1-rou
   labels:
     app: tekton1
 spec:
   host: tekton1.apps.demo.ibmdte.net
   to:
     kind: Service
-    name: tekton1
+    name: tekton1-svc
     weight: 100
   port:
     targetPort: 3000-tcp
