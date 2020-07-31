@@ -32,7 +32,7 @@ kind: Service
 metadata:
   labels:
     app: tekton1
-  name: tekton1-svc
+  name: tekton1
 spec:
   ports:
     - port: 3000
@@ -41,3 +41,23 @@ spec:
   selector:
     app: tekton1
   type: LoadBalancer
+---
+# This the route yaml
+apiVersion: v1
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: tekton1
+  labels:
+    app: tekton1
+spec:
+  host: tekton1.apps.demo.ibmdte.net
+  to:
+    kind: Service
+    name: tekton1
+    weight: 100
+  port:
+    targetPort: 3000-tcp
+  tls:
+    termination: passthrough
+  wildcardPolicy: None
